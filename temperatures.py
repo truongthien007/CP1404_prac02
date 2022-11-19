@@ -5,12 +5,13 @@ def main():
 F - Convert Fahrenheit to Celsius
 Q - Quit"""
     print(MENU)
-    get_choice()
-
-
-def get_choice():
-    """get and validate choice from user"""
     choice = input(">>> ").upper()
+    do_as_request(choice)
+
+
+def do_as_request(choice):
+    """get and validate choice from user"""
+    # choice = input(">>> ").upper()
     while choice != "Q":
         if choice == "C":
             convert_c_to_f()
