@@ -9,6 +9,7 @@ Q - Quit"""
 
 
 def get_choice():
+    """get and validate choice from user"""
     choice = input(">>> ").upper()
     while choice != "Q":
         if choice == "C":
@@ -23,12 +24,14 @@ def get_choice():
 
 
 def convert_c_to_f():
+    """convert censius to fahrenheit"""
     celsius = float(input("Celsius: "))
     fahrenheit = celsius * 9.0 / 5 + 32
     print(f"Result: {fahrenheit:.2f} F")
 
 
 def convert_f_to_c():
+    """convert fahrenheit to censius"""
     fahrenheit = float(input("Fahrenheit: "))
     celsius = 5 / 9 * (fahrenheit - 32)
     print(f"Result: {celsius:.2f} C")
