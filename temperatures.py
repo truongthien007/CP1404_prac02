@@ -1,4 +1,35 @@
+"""
+function main
+    display menu
+    get choice
+    function do_as_request
 
+function do_as_request
+    while choice != "Q"
+        if choice == "C"
+            convert_c_to_f()
+        else if choice == "F":
+            convert_f_to_c()
+        else:
+            display invalid
+        get choice
+        display thank you
+
+def convert_c_to_f():
+    get celsius
+    fahrenheit = celsius * 9.0 / 5 + 32
+    display fahrenheit
+
+
+def convert_f_to_c():
+    get fahrenheit
+    celsius = 5 / 9 * (fahrenheit - 32)
+    display celsius
+
+main()
+
+
+"""
 
 def main():
     MENU = """C - Convert Celsius to Fahrenheit
