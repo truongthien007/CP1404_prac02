@@ -1,4 +1,25 @@
+"""
+import random
+function main
+    get score
+    score_result = determine_score(score)
+    display score_result
+    display random number's result
 
+function determine_score(score):
+    if 0 > score or score > 100:
+        score_result = "Invalid score"
+    else if score < 50:
+        score_result = "Bad"
+    else if score < 90:
+        score_result = "Pass"
+    else:
+        score_result = "Excellent"
+    return score_result
+
+main()
+
+"""
 import random
 
 
