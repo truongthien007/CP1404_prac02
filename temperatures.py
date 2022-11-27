@@ -31,6 +31,7 @@ main()
 
 """
 
+
 def main():
     MENU = """C - Convert Celsius to Fahrenheit
 F - Convert Fahrenheit to Celsius
@@ -70,6 +71,3 @@ def convert_f_to_c():
 
 
 main()
-
-
-
